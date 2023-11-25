@@ -5,12 +5,10 @@ export default function page() {
     <div>
            <section className="Sub-header">
         <nav>
-            <a href="index.html" className="logo">Xplore
+            <a href="/" className="logo">Xplore
                 <i className="fab fa-staylinked"></i>Skill
             </a>
             <div className="nav-links" id="navLinks">
-                {/* <!-- reposnive bar open and close --> */}
-                {/* <i className="fa fa-times" onclick="hideMenu()"></i> */}
                 <ul>
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/Course">Course</Link></li>
@@ -19,8 +17,6 @@ export default function page() {
                     <li><Link href="/Contact">Contact</Link></li>
                 </ul>
             </div>
-            {/* <i className="fa fa-bars" onclick="showMenu()"></i> */}
-            {/* <!-- reposnive bar open and close --> */}
         </nav>
         <h1>Contact Us</h1>
     </section>
@@ -87,7 +83,7 @@ export default function page() {
             <i className="fab fa-twitter"></i>
             <i className="fab fa-linkedin"></i>
         </div>
-        <p>Made with <i className="fas fa-heart"></i> by <a href="#">Faizi Developer</a></p>
+        <p>Made with <i className="fas fa-heart"></i> by <a href="#">Faheem Saif</a></p>
         <p>Copyright © 2021 <Link href="/">Xplore Skill</Link>. All Rights Reserved</p>
     </section>
     {/* <!-- Footer Section End --> */}

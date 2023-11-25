@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -8,12 +9,11 @@ export default function page() {
 <body>
     <section className="Sub-header">
     <nav>
-            <a href="index.html" className="logo">Xplore
+            <a href="/" className="logo">Xplore
                 <i className="fab fa-staylinked"></i>Skill
             </a>
             <div className="nav-links" id="navLinks">
-                {/* <!-- reposnive bar open and close --> */}
-                {/* <i className="fa fa-times" onclick="hideMenu()"></i> */}
+      
                 <ul>
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/Course">Course</Link></li>
@@ -22,8 +22,7 @@ export default function page() {
                     <li><Link href="/Contact">Contact</Link></li>
                 </ul>
             </div>
-            {/* <i className="fa fa-bars" onclick="showMenu()"></i> */}
-            {/* <!-- reposnive bar open and close --> */}
+           
         </nav>
         <h1>Our Post</h1>
     </section>
@@ -107,7 +106,7 @@ export default function page() {
             <i className="fab fa-twitter"></i>
             <i className="fab fa-linkedin"></i>
         </div>
-        <p>Made with <i className="fas fa-heart"></i> by <a href="#">Sagar Developer</a></p>
+        <p>Made with <i className="fas fa-heart"></i> by <a href="#">Faheem Saif</a></p>
         <p>Copyright © 2021 <a href="index.html">Xplore Skill</a>. All Rights Reserved</p>
     </section>
 

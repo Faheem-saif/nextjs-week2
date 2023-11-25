@@ -19,7 +19,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-   
+      {/* <section className="Sub-header"> */}
+      {/* <nav>
+            <a href="/" className="logo">Xplore
+                <i className="fab fa-staylinked"> </i>Skill
+            </a>
+            <div className="nav-links" id="navLinks">
+             
+                <ul>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/Course">Course</Link></li>
+                    <li><Link href="/Blog">Blog</Link></li>
+                    <li><Link href="/About">About</Link></li>
+                    <li><Link href="/Contact">Contact</Link></li>
+                </ul>
+            </div>
+          
+        </nav>
+       </section> */}
         {children}
         </body>
     </html>
