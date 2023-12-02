@@ -9,7 +9,7 @@ export default function Home() {
     <section className="header">
     <nav>
             <a href="/" className="logo">Xplore
-                <i className="fab fa-staylinked"></i>Skill
+                <i className="fab fa-staylinked">S</i>kill
             </a>
             <div className="nav-links" id="navLinks">
            
